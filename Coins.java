@@ -4,6 +4,11 @@
  */
 public class Coins {
 	public static void main(String[] args) {
-		// Put your code here
+
+		int cents = Integer.parseInt(args[0]);
+		int q = cents / 25;
+		double remainder = cents % 25;
+
+		System.out.println("Querters: " + q + " cents change: " + remainder);
 	}
 }
