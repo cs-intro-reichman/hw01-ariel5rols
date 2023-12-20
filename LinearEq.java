@@ -5,5 +5,8 @@
  * Treats the three arguments as well as the computed value as double values
  */
 public class LinearEq {
-	// Put your code here
+	public static void main(String[] args) {
+		double a = Integer.parseInt(args[0]), b = Integer.parseInt(args[1]), c = Integer.parseInt(args[2]);
+		System.out.println("[+] X is: " + (c - b) / a);
+	}
 }
