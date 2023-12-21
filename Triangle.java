@@ -8,9 +8,9 @@ public class Triangle {
 	
 		int a = Integer.parseInt(args[0]), b = Integer.parseInt(args[1]), c = Integer.parseInt(args[2]); // try & catch for user input?
 		if ((a + b > c) && (c + a > a) && (c + b > a)) {
-			System.out.println("[V] These ints form a triangle!");
+			System.out.println(a + ", " + b + ", " + c + ": true");
 		} else {
-			System.out.println("[X] These ints do not form a triangle");
+			System.out.println(a + ", " + b + ", " + c + ": false");
 		}
 
 	}
